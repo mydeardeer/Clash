@@ -5,111 +5,161 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🏳_NON_Mshare_T_1', server: qs20.shenseven.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 437b10ea-9263-4c9d-8cf1-a8fc4755bcd9}
-  - {name: '🏳_NON_Mshare_T_2', server: aga.shenseven.xyz, port: 10028, type: ss, cipher: chacha20-ietf-poly1305, password: 437b10ea-9263-4c9d-8cf1-a8fc4755bcd9}
+  - {name: '🏳_NON_Mshare_T_1', server: 134.195.196.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_Mshare_T_2', server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: '🏳_NON_Mshare_T_3', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp}
-  - {name: '🏳_NON_Mshare_T_4', server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🏳_NON_Mshare_T_5', server: 134.195.196.214, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🏳_NON_Mshare_T_6', server: 134.195.196.214, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🏳_NON_Mshare_T_7', server: 134.195.196.214, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_4', server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_5', server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏳_NON_Mshare_T_6', server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_7', server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: '🏳_NON_Mshare_T_8', server: 134.195.196.214, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🏳_NON_Mshare_T_9', server: 134.195.196.214, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🏳_NON_Mshare_T_10', server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🏳_NON_Mshare_T_11', server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🏳_NON_Mshare_T_12', server: 134.195.196.154, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🏳_NON_Mshare_T_13', server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🏳_NON_Mshare_T_14', server: 194.163.134.101, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8doqA73pHheo}
-  - {name: '🏳_NON_Mshare_T_15', server: aga.shenseven.xyz, port: 10034, type: vmess, uuid: 437b10ea-9263-4c9d-8cf1-a8fc4755bcd9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: '🏳_NON_Mshare_T_16', server: 194.163.134.104, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dZpagSuA9Vxe}
-  - {name: '🏳_NON_Mshare_T_17', server: 161.97.64.169, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: czXXqP8K5Uya}
-  - {name: '🏳_NON_Mshare_T_18', server: 161.97.64.163, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: KW5I1uEZBI0y}
-  - {name: '🏳_NON_Mshare_T_19', server: 95.111.255.56, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Wh9NryUjBiKu}
-  - {name: '🏳_NON_Mshare_T_20', server: gy.shenseven.xyz, port: 40053, type: vmess, uuid: 437b10ea-9263-4c9d-8cf1-a8fc4755bcd9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: '🏳_NON_Mshare_T_21', server: ppy.out02.nodeserver.top, port: 26015, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out02.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_22', server: ppy.out01.nodeserver.top, port: 26014, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out01.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_23', server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkt, ws-headers: {Host: gzyd.tuboshu.space}}
-  - {name: '🏳_NON_Mshare_T_24', server: ppy.out02.nodeserver.top, port: 26013, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out02.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_25', server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkt, ws-headers: {Host: czlt.tuboshu.space}}
-  - {name: '🏳_NON_Mshare_T_26', server: ppy.out01.nodeserver.top, port: 26012, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out01.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_27', server: ppy.out02.nodeserver.top, port: 26011, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out02.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_28', server: ppy.out01.nodeserver.top, port: 26010, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out01.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_29', server: zj.haojiahuo.club, port: 60036, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: '🏳_NON_Mshare_T_30', server: zj.haojiahuo.club, port: 30057, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: '🏳_NON_Mshare_T_31', server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkt}
-  - {name: '🏳_NON_Mshare_T_32', server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkt}
-  - {name: '🏳_NON_Mshare_T_33', server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkt}
-  - {name: '🏳_NON_Mshare_T_34', server: qv20.shenseven.xyz, port: 80, type: vmess, uuid: 437b10ea-9263-4c9d-8cf1-a8fc4755bcd9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: '🏳_NON_Mshare_T_35', server: fk.shenseven.xyz, port: 8080, type: vmess, uuid: 437b10ea-9263-4c9d-8cf1-a8fc4755bcd9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
-  - {name: '🏳_NON_Mshare_T_36', server: ppy.out04.nodeserver.top, port: 26009, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out04.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_37', server: ppy.out03.nodeserver.top, port: 26008, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out03.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_38', server: ppy.out04.nodeserver.top, port: 26007, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out04.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_39', server: ppy.out03.nodeserver.top, port: 26006, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out03.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_40', server: qt9.shenseven.xyz, port: 443, type: trojan, password: 437b10ea-9263-4c9d-8cf1-a8fc4755bcd9, sni: qt9.shenseven.xyz}
-  - {name: '🏳_NON_Mshare_T_41', server: zj.haojiahuo.club, port: 30044, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: '🏳_NON_Mshare_T_42', server: zj.haojiahuo.club, port: 30045, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: '🏳_NON_Mshare_T_43', server: ex.oracleusa.ml, port: 443, type: vmess, uuid: 29d8e9c2-c88f-4a86-a615-2a76dcc2458b, alterId: 1, cipher: auto, tls: true, network: ws}
-  - {name: '🏳_NON_Mshare_T_44', server: qv3.shenseven.xyz, port: 443, type: vmess, uuid: 437b10ea-9263-4c9d-8cf1-a8fc4755bcd9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: '🏳_NON_Mshare_T_45', server: aga.shenseven.xyz, port: 10035, type: trojan, password: 437b10ea-9263-4c9d-8cf1-a8fc4755bcd9, sni: qt6.shenseven.xyz}
-  - {name: '🏳_NON_Mshare_T_46', server: 217.197.161.244, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🏳_NON_Mshare_T_47', server: ppy.out04.nodeserver.top, port: 26023, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out04.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_48', server: ppy.out03.nodeserver.top, port: 26022, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out03.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_49', server: ppy.out04.nodeserver.top, port: 26021, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out04.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_50', server: ppy.out03.nodeserver.top, port: 26020, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out03.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_51', server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: '🏳_NON_Mshare_T_52', server: zj.haojiahuo.club, port: 30041, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: '🏳_NON_Mshare_T_53', server: ppy.out04.nodeserver.top, port: 26027, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out04.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_54', server: ppy.out03.nodeserver.top, port: 26026, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out03.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_55', server: ppy.out04.nodeserver.top, port: 26025, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out04.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_56', server: ppy.out03.nodeserver.top, port: 26024, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out03.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_57', server: ppy.out03.nodeserver.top, port: 26003, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out03.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_58', server: ppy.out04.nodeserver.top, port: 26002, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out04.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_59', server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🏳_NON_Mshare_T_60', server: ppy.out03.nodeserver.top, port: 26001, type: vmess, uuid: 6e429e45-425c-3336-9be8-9cf403073aa7, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: ppy.out03.nodeserver.top}}
-  - {name: '🏳_NON_Mshare_T_61', server: 38.68.134.37, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🏳_NON_Mshare_T_62', server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🏳_NON_Mshare_T_63', server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🏳_NON_Mshare_T_64', server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🏳_NON_Mshare_T_65', server: zj.haojiahuo.club, port: 30047, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: '🏳_NON_Mshare_T_66', server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🏳_NON_Mshare_T_67', server: 142.202.48.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🏳_NON_Mshare_T_68', server: 142.202.48.45, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🏳_NON_Mshare_T_69', server: zj.haojiahuo.club, port: 30046, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: '🏳_NON_Mshare_T_70', server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: chuch3go.com}}
-  - {name: '🏳_NON_Mshare_T_71', server: 142.202.48.14, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🏳_NON_Mshare_T_72', server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🏳_NON_Mshare_T_73', server: 167.88.62.62, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🏳_NON_Mshare_T_74', server: 38.39.192.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🏳_NON_Mshare_T_75', server: 167.88.63.61, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🏳_NON_Mshare_T_76', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🏳_NON_Mshare_T_77', server: 142.202.48.114, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🏳_NON_Mshare_T_78', server: 142.202.48.58, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🏳_NON_Mshare_T_79', server: 142.202.48.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🏳_NON_Mshare_T_80', server: 172.252.64.51, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: '🏳_NON_Mshare_T_81', server: 172.252.64.45, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: '🏳_NON_Mshare_T_82', server: 142.202.48.43, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🏳_NON_Mshare_T_83', server: 142.202.48.17, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🏳_NON_Mshare_T_84', server: 167.88.62.34, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🏳_NON_Mshare_T_85', server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: '🏳_NON_Mshare_T_86', server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🏳_NON_Mshare_T_87', server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🏳_NON_Mshare_T_88', server: 142.202.48.77, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🏳_NON_Mshare_T_89', server: 142.202.48.14, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🏳_NON_Mshare_T_90', server: 142.202.48.103, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🏳_NON_Mshare_T_91', server: zj.haojiahuo.club, port: 30052, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: '🏳_NON_Mshare_T_92', server: 172.107.233.234, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🏳_NON_Mshare_T_93', server: 142.202.48.78, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🏳_NON_Mshare_T_94', server: 38.91.101.221, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🏳_NON_Mshare_T_95', server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🏳_NON_Mshare_T_96', server: 38.75.136.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🏳_NON_Mshare_T_97', server: 38.75.136.116, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🏳_NON_Mshare_T_98', server: 38.75.136.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🏳_NON_Mshare_T_99', server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🏳_NON_Mshare_T_100', server: 38.114.114.67, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🏳_NON_Mshare_T_101', server: 38.75.137.9, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🏳_NON_Mshare_T_102', server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🏳_NON_Mshare_T_103', server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🏳_NON_Mshare_T_104', server: 167.88.62.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🏳_NON_Mshare_T_105', server: 167.88.61.130, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_9', server: 134.195.196.214, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🏳_NON_Mshare_T_10', server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_11', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: '🏳_NON_Mshare_T_12', server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_13', server: 134.195.196.214, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🏳_NON_Mshare_T_14', server: 134.195.196.214, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_15', server: 134.195.196.214, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_16', server: 134.195.196.214, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_17', server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_18', server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_19', server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏳_NON_Mshare_T_20', server: 194.163.134.101, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8doqA73pHheo}
+  - {name: '🏳_NON_Mshare_T_21', server: 161.97.64.169, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: czXXqP8K5Uya}
+  - {name: '🏳_NON_Mshare_T_22', server: 161.97.64.163, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: KW5I1uEZBI0y}
+  - {name: '🏳_NON_Mshare_T_23', server: 38.39.192.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_24', server: azhk.cn88.net, port: 10086, type: vmess, uuid: c2d62ec2-8873-46e6-a977-6f02e8d418bf, alterId: 3, cipher: auto, tls: true, network: tcp}
+  - {name: '🏳_NON_Mshare_T_25', server: 135.wgong.xyz, port: 52335, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_26', server: 134.wgong.xyz, port: 52334, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_27', server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkt, ws-headers: {Host: czlt.tuboshu.space}}
+  - {name: '🏳_NON_Mshare_T_28', server: 133.wgong.xyz, port: 52333, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_29', server: 122.wgong.xyz, port: 52222, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_30', server: 116.wgong.xyz, port: 52216, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_31', server: 85.wgong.xyz, port: 52285, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_32', server: 83.wgong.xyz, port: 52283, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_33', server: zj.haojiahuo.club, port: 30057, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: '🏳_NON_Mshare_T_34', server: 82.wgong.xyz, port: 52282, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_35', server: 108.wgong.xyz, port: 11224, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_36', server: 103.wgong.xyz, port: 52203, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_37', server: jmcm.rokishi.cyou, port: 10005, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_38', server: jmcm.rokishi.cyou, port: 10006, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_39', server: gzcm.rokishi.cyou, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_40', server: gz.cm.data2china.com, port: 30043, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_41', server: gzcm.rokishi.cyou, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_42', server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkt}
+  - {name: '🏳_NON_Mshare_T_43', server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkt}
+  - {name: '🏳_NON_Mshare_T_44', server: jmcm.rokishi.cyou, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_45', server: jmcm.rokishi.cyou, port: 10073, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_46', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
+  - {name: '🏳_NON_Mshare_T_47', server: 101.wgong.xyz, port: 52201, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_48', server: 107.wgong.xyz, port: 52207, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_49', server: 84.wgong.xyz, port: 52284, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_50', server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: '🏳_NON_Mshare_T_51', server: zj.haojiahuo.club, port: 30052, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: '🏳_NON_Mshare_T_52', server: zj.haojiahuo.club, port: 30045, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: '🏳_NON_Mshare_T_53', server: bb.shangou.tk, port: 2622, type: vmess, uuid: 9585979f-170c-4e98-e576-4e891b289d47, alterId: 8, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🏳_NON_Mshare_T_54', server: 121.wgong.xyz, port: 52221, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_55', server: 120.wgong.xyz, port: 52220, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_56', server: 119.wgong.xyz, port: 52219, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_57', server: 118.wgong.xyz, port: 52218, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_58', server: 117.wgong.xyz, port: 52217, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_59', server: jmcm.rokishi.cyou, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_60', server: zj.haojiahuo.club, port: 30044, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: '🏳_NON_Mshare_T_61', server: zj.haojiahuo.club, port: 30045, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: '🏳_NON_Mshare_T_62', server: ex.oracleusa.ml, port: 443, type: vmess, uuid: 29d8e9c2-c88f-4a86-a615-2a76dcc2458b, alterId: 1, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_Mshare_T_63', server: 86.wgong.xyz, port: 52286, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_64', server: 99.wgong.xyz, port: 52299, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_65', server: 81.wgong.xyz, port: 52281, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_66', server: 109.wgong.xyz, port: 52209, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_67', server: 106.wgong.xyz, port: 11223, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_68', server: 105.wgong.xyz, port: 52205, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_69', server: 104.wgong.xyz, port: 11222, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_70', server: 102.wgong.xyz, port: 11221, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_71', server: 100.wgong.xyz, port: 11220, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_72', server: jmcm.rokishi.cyou, port: 10049, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_73', server: jmcm.rokishi.cyou, port: 10057, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_74', server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: '🏳_NON_Mshare_T_75', server: zj.haojiahuo.club, port: 30041, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: '🏳_NON_Mshare_T_76', server: jmcm.rokishi.cyou, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_77', server: jmcm.rokishi.cyou, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_78', server: 38.114.114.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🏳_NON_Mshare_T_79', server: jmcm.rokishi.cyou, port: 10020, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_80', server: jmcm.rokishi.cyou, port: 10024, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_81', server: 38.68.134.37, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_82', server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_83', server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_84', server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_85', server: zj.haojiahuo.club, port: 30047, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: '🏳_NON_Mshare_T_86', server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🏳_NON_Mshare_T_87', server: 142.202.48.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_88', server: 142.202.48.45, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_89', server: zj.haojiahuo.club, port: 30046, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: '🏳_NON_Mshare_T_90', server: jmcm.rokishi.cyou, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_91', server: 142.202.48.14, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_92', server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_93', server: jmcm.rokishi.cyou, port: 10030, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_94', server: 38.114.114.49, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🏳_NON_Mshare_T_95', server: 38.39.192.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_96', server: 167.88.61.130, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🏳_NON_Mshare_T_97', server: 38.114.114.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏳_NON_Mshare_T_98', server: 142.202.48.114, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_Mshare_T_99', server: 142.202.48.58, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_Mshare_T_100', server: 142.202.48.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_Mshare_T_101', server: 172.252.64.51, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🏳_NON_Mshare_T_102', server: 172.252.64.45, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🏳_NON_Mshare_T_103', server: 167.88.62.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_104', server: 142.202.48.17, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_Mshare_T_105', server: 167.88.62.34, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_Mshare_T_106', server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: '🏳_NON_Mshare_T_107', server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_108', server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_109', server: 142.202.48.77, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_110', server: 142.202.48.14, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_111', server: 38.114.114.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🏳_NON_Mshare_T_112', server: zj.haojiahuo.club, port: 30052, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: '🏳_NON_Mshare_T_113', server: 172.107.233.234, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_114', server: 38.114.114.67, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_115', server: 38.114.114.67, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🏳_NON_Mshare_T_116', server: jmcm.rokishi.cyou, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_117', server: 142.202.48.78, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_Mshare_T_118', server: jmcm.rokishi.cyou, port: 10036, type: ss, cipher: chacha20-ietf-poly1305, password: e2a5a185-474b-40f9-8645-97906a55be31}
+  - {name: '🏳_NON_Mshare_T_119', server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏳_NON_Mshare_T_120', server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_121', server: 38.75.136.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_122', server: 38.68.134.37, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_123', server: 38.75.136.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_124', server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏳_NON_Mshare_T_125', server: 38.114.114.67, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏳_NON_Mshare_T_126', server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏳_NON_Mshare_T_127', server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏳_NON_Mshare_T_128', server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏳_NON_Mshare_T_129', server: 167.88.62.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🏳_NON_Mshare_T_130', server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏳_NON_Mshare_T_131', server: 38.75.136.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_132', server: 38.75.136.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_133', server: 38.114.114.67, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏳_NON_Mshare_T_134', server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_135', server: 142.202.48.14, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_136', server: 142.202.48.14, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_137', server: 142.202.48.17, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_Mshare_T_138', server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🏳_NON_Mshare_T_139', server: 142.202.48.45, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_140', server: 142.202.48.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_Mshare_T_141', server: 142.202.48.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_142', server: 142.202.48.58, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_Mshare_T_143', server: 142.202.48.77, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_144', server: 142.202.48.78, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_Mshare_T_145', server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_146', server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_147', server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_Mshare_T_148', server: 142.202.48.114, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_Mshare_T_149', server: 167.88.62.34, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_Mshare_T_150', server: 167.88.62.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🏳_NON_Mshare_T_151', server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_152', server: 172.107.233.234, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏳_NON_Mshare_T_153', server: 124.wgong.xyz, port: 52224, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏳_NON_Mshare_T_154', server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_Mshare_T_155', server: 123.wgong.xyz, port: 52223, type: vmess, uuid: b20e2ae9-b822-35be-9657-a81bbef5aeb6, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -221,6 +271,56 @@ proxy-groups:
       - 🏳_NON_Mshare_T_103
       - 🏳_NON_Mshare_T_104
       - 🏳_NON_Mshare_T_105
+      - 🏳_NON_Mshare_T_106
+      - 🏳_NON_Mshare_T_107
+      - 🏳_NON_Mshare_T_108
+      - 🏳_NON_Mshare_T_109
+      - 🏳_NON_Mshare_T_110
+      - 🏳_NON_Mshare_T_111
+      - 🏳_NON_Mshare_T_112
+      - 🏳_NON_Mshare_T_113
+      - 🏳_NON_Mshare_T_114
+      - 🏳_NON_Mshare_T_115
+      - 🏳_NON_Mshare_T_116
+      - 🏳_NON_Mshare_T_117
+      - 🏳_NON_Mshare_T_118
+      - 🏳_NON_Mshare_T_119
+      - 🏳_NON_Mshare_T_120
+      - 🏳_NON_Mshare_T_121
+      - 🏳_NON_Mshare_T_122
+      - 🏳_NON_Mshare_T_123
+      - 🏳_NON_Mshare_T_124
+      - 🏳_NON_Mshare_T_125
+      - 🏳_NON_Mshare_T_126
+      - 🏳_NON_Mshare_T_127
+      - 🏳_NON_Mshare_T_128
+      - 🏳_NON_Mshare_T_129
+      - 🏳_NON_Mshare_T_130
+      - 🏳_NON_Mshare_T_131
+      - 🏳_NON_Mshare_T_132
+      - 🏳_NON_Mshare_T_133
+      - 🏳_NON_Mshare_T_134
+      - 🏳_NON_Mshare_T_135
+      - 🏳_NON_Mshare_T_136
+      - 🏳_NON_Mshare_T_137
+      - 🏳_NON_Mshare_T_138
+      - 🏳_NON_Mshare_T_139
+      - 🏳_NON_Mshare_T_140
+      - 🏳_NON_Mshare_T_141
+      - 🏳_NON_Mshare_T_142
+      - 🏳_NON_Mshare_T_143
+      - 🏳_NON_Mshare_T_144
+      - 🏳_NON_Mshare_T_145
+      - 🏳_NON_Mshare_T_146
+      - 🏳_NON_Mshare_T_147
+      - 🏳_NON_Mshare_T_148
+      - 🏳_NON_Mshare_T_149
+      - 🏳_NON_Mshare_T_150
+      - 🏳_NON_Mshare_T_151
+      - 🏳_NON_Mshare_T_152
+      - 🏳_NON_Mshare_T_153
+      - 🏳_NON_Mshare_T_154
+      - 🏳_NON_Mshare_T_155
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -331,6 +431,56 @@ proxy-groups:
       - 🏳_NON_Mshare_T_103
       - 🏳_NON_Mshare_T_104
       - 🏳_NON_Mshare_T_105
+      - 🏳_NON_Mshare_T_106
+      - 🏳_NON_Mshare_T_107
+      - 🏳_NON_Mshare_T_108
+      - 🏳_NON_Mshare_T_109
+      - 🏳_NON_Mshare_T_110
+      - 🏳_NON_Mshare_T_111
+      - 🏳_NON_Mshare_T_112
+      - 🏳_NON_Mshare_T_113
+      - 🏳_NON_Mshare_T_114
+      - 🏳_NON_Mshare_T_115
+      - 🏳_NON_Mshare_T_116
+      - 🏳_NON_Mshare_T_117
+      - 🏳_NON_Mshare_T_118
+      - 🏳_NON_Mshare_T_119
+      - 🏳_NON_Mshare_T_120
+      - 🏳_NON_Mshare_T_121
+      - 🏳_NON_Mshare_T_122
+      - 🏳_NON_Mshare_T_123
+      - 🏳_NON_Mshare_T_124
+      - 🏳_NON_Mshare_T_125
+      - 🏳_NON_Mshare_T_126
+      - 🏳_NON_Mshare_T_127
+      - 🏳_NON_Mshare_T_128
+      - 🏳_NON_Mshare_T_129
+      - 🏳_NON_Mshare_T_130
+      - 🏳_NON_Mshare_T_131
+      - 🏳_NON_Mshare_T_132
+      - 🏳_NON_Mshare_T_133
+      - 🏳_NON_Mshare_T_134
+      - 🏳_NON_Mshare_T_135
+      - 🏳_NON_Mshare_T_136
+      - 🏳_NON_Mshare_T_137
+      - 🏳_NON_Mshare_T_138
+      - 🏳_NON_Mshare_T_139
+      - 🏳_NON_Mshare_T_140
+      - 🏳_NON_Mshare_T_141
+      - 🏳_NON_Mshare_T_142
+      - 🏳_NON_Mshare_T_143
+      - 🏳_NON_Mshare_T_144
+      - 🏳_NON_Mshare_T_145
+      - 🏳_NON_Mshare_T_146
+      - 🏳_NON_Mshare_T_147
+      - 🏳_NON_Mshare_T_148
+      - 🏳_NON_Mshare_T_149
+      - 🏳_NON_Mshare_T_150
+      - 🏳_NON_Mshare_T_151
+      - 🏳_NON_Mshare_T_152
+      - 🏳_NON_Mshare_T_153
+      - 🏳_NON_Mshare_T_154
+      - 🏳_NON_Mshare_T_155
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -442,6 +592,56 @@ proxy-groups:
       - 🏳_NON_Mshare_T_103
       - 🏳_NON_Mshare_T_104
       - 🏳_NON_Mshare_T_105
+      - 🏳_NON_Mshare_T_106
+      - 🏳_NON_Mshare_T_107
+      - 🏳_NON_Mshare_T_108
+      - 🏳_NON_Mshare_T_109
+      - 🏳_NON_Mshare_T_110
+      - 🏳_NON_Mshare_T_111
+      - 🏳_NON_Mshare_T_112
+      - 🏳_NON_Mshare_T_113
+      - 🏳_NON_Mshare_T_114
+      - 🏳_NON_Mshare_T_115
+      - 🏳_NON_Mshare_T_116
+      - 🏳_NON_Mshare_T_117
+      - 🏳_NON_Mshare_T_118
+      - 🏳_NON_Mshare_T_119
+      - 🏳_NON_Mshare_T_120
+      - 🏳_NON_Mshare_T_121
+      - 🏳_NON_Mshare_T_122
+      - 🏳_NON_Mshare_T_123
+      - 🏳_NON_Mshare_T_124
+      - 🏳_NON_Mshare_T_125
+      - 🏳_NON_Mshare_T_126
+      - 🏳_NON_Mshare_T_127
+      - 🏳_NON_Mshare_T_128
+      - 🏳_NON_Mshare_T_129
+      - 🏳_NON_Mshare_T_130
+      - 🏳_NON_Mshare_T_131
+      - 🏳_NON_Mshare_T_132
+      - 🏳_NON_Mshare_T_133
+      - 🏳_NON_Mshare_T_134
+      - 🏳_NON_Mshare_T_135
+      - 🏳_NON_Mshare_T_136
+      - 🏳_NON_Mshare_T_137
+      - 🏳_NON_Mshare_T_138
+      - 🏳_NON_Mshare_T_139
+      - 🏳_NON_Mshare_T_140
+      - 🏳_NON_Mshare_T_141
+      - 🏳_NON_Mshare_T_142
+      - 🏳_NON_Mshare_T_143
+      - 🏳_NON_Mshare_T_144
+      - 🏳_NON_Mshare_T_145
+      - 🏳_NON_Mshare_T_146
+      - 🏳_NON_Mshare_T_147
+      - 🏳_NON_Mshare_T_148
+      - 🏳_NON_Mshare_T_149
+      - 🏳_NON_Mshare_T_150
+      - 🏳_NON_Mshare_T_151
+      - 🏳_NON_Mshare_T_152
+      - 🏳_NON_Mshare_T_153
+      - 🏳_NON_Mshare_T_154
+      - 🏳_NON_Mshare_T_155
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -552,6 +752,56 @@ proxy-groups:
       - 🏳_NON_Mshare_T_103
       - 🏳_NON_Mshare_T_104
       - 🏳_NON_Mshare_T_105
+      - 🏳_NON_Mshare_T_106
+      - 🏳_NON_Mshare_T_107
+      - 🏳_NON_Mshare_T_108
+      - 🏳_NON_Mshare_T_109
+      - 🏳_NON_Mshare_T_110
+      - 🏳_NON_Mshare_T_111
+      - 🏳_NON_Mshare_T_112
+      - 🏳_NON_Mshare_T_113
+      - 🏳_NON_Mshare_T_114
+      - 🏳_NON_Mshare_T_115
+      - 🏳_NON_Mshare_T_116
+      - 🏳_NON_Mshare_T_117
+      - 🏳_NON_Mshare_T_118
+      - 🏳_NON_Mshare_T_119
+      - 🏳_NON_Mshare_T_120
+      - 🏳_NON_Mshare_T_121
+      - 🏳_NON_Mshare_T_122
+      - 🏳_NON_Mshare_T_123
+      - 🏳_NON_Mshare_T_124
+      - 🏳_NON_Mshare_T_125
+      - 🏳_NON_Mshare_T_126
+      - 🏳_NON_Mshare_T_127
+      - 🏳_NON_Mshare_T_128
+      - 🏳_NON_Mshare_T_129
+      - 🏳_NON_Mshare_T_130
+      - 🏳_NON_Mshare_T_131
+      - 🏳_NON_Mshare_T_132
+      - 🏳_NON_Mshare_T_133
+      - 🏳_NON_Mshare_T_134
+      - 🏳_NON_Mshare_T_135
+      - 🏳_NON_Mshare_T_136
+      - 🏳_NON_Mshare_T_137
+      - 🏳_NON_Mshare_T_138
+      - 🏳_NON_Mshare_T_139
+      - 🏳_NON_Mshare_T_140
+      - 🏳_NON_Mshare_T_141
+      - 🏳_NON_Mshare_T_142
+      - 🏳_NON_Mshare_T_143
+      - 🏳_NON_Mshare_T_144
+      - 🏳_NON_Mshare_T_145
+      - 🏳_NON_Mshare_T_146
+      - 🏳_NON_Mshare_T_147
+      - 🏳_NON_Mshare_T_148
+      - 🏳_NON_Mshare_T_149
+      - 🏳_NON_Mshare_T_150
+      - 🏳_NON_Mshare_T_151
+      - 🏳_NON_Mshare_T_152
+      - 🏳_NON_Mshare_T_153
+      - 🏳_NON_Mshare_T_154
+      - 🏳_NON_Mshare_T_155
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -662,6 +912,56 @@ proxy-groups:
       - 🏳_NON_Mshare_T_103
       - 🏳_NON_Mshare_T_104
       - 🏳_NON_Mshare_T_105
+      - 🏳_NON_Mshare_T_106
+      - 🏳_NON_Mshare_T_107
+      - 🏳_NON_Mshare_T_108
+      - 🏳_NON_Mshare_T_109
+      - 🏳_NON_Mshare_T_110
+      - 🏳_NON_Mshare_T_111
+      - 🏳_NON_Mshare_T_112
+      - 🏳_NON_Mshare_T_113
+      - 🏳_NON_Mshare_T_114
+      - 🏳_NON_Mshare_T_115
+      - 🏳_NON_Mshare_T_116
+      - 🏳_NON_Mshare_T_117
+      - 🏳_NON_Mshare_T_118
+      - 🏳_NON_Mshare_T_119
+      - 🏳_NON_Mshare_T_120
+      - 🏳_NON_Mshare_T_121
+      - 🏳_NON_Mshare_T_122
+      - 🏳_NON_Mshare_T_123
+      - 🏳_NON_Mshare_T_124
+      - 🏳_NON_Mshare_T_125
+      - 🏳_NON_Mshare_T_126
+      - 🏳_NON_Mshare_T_127
+      - 🏳_NON_Mshare_T_128
+      - 🏳_NON_Mshare_T_129
+      - 🏳_NON_Mshare_T_130
+      - 🏳_NON_Mshare_T_131
+      - 🏳_NON_Mshare_T_132
+      - 🏳_NON_Mshare_T_133
+      - 🏳_NON_Mshare_T_134
+      - 🏳_NON_Mshare_T_135
+      - 🏳_NON_Mshare_T_136
+      - 🏳_NON_Mshare_T_137
+      - 🏳_NON_Mshare_T_138
+      - 🏳_NON_Mshare_T_139
+      - 🏳_NON_Mshare_T_140
+      - 🏳_NON_Mshare_T_141
+      - 🏳_NON_Mshare_T_142
+      - 🏳_NON_Mshare_T_143
+      - 🏳_NON_Mshare_T_144
+      - 🏳_NON_Mshare_T_145
+      - 🏳_NON_Mshare_T_146
+      - 🏳_NON_Mshare_T_147
+      - 🏳_NON_Mshare_T_148
+      - 🏳_NON_Mshare_T_149
+      - 🏳_NON_Mshare_T_150
+      - 🏳_NON_Mshare_T_151
+      - 🏳_NON_Mshare_T_152
+      - 🏳_NON_Mshare_T_153
+      - 🏳_NON_Mshare_T_154
+      - 🏳_NON_Mshare_T_155
   - name: 📲 电报信息
     type: select
     proxies:
@@ -772,6 +1072,56 @@ proxy-groups:
       - 🏳_NON_Mshare_T_103
       - 🏳_NON_Mshare_T_104
       - 🏳_NON_Mshare_T_105
+      - 🏳_NON_Mshare_T_106
+      - 🏳_NON_Mshare_T_107
+      - 🏳_NON_Mshare_T_108
+      - 🏳_NON_Mshare_T_109
+      - 🏳_NON_Mshare_T_110
+      - 🏳_NON_Mshare_T_111
+      - 🏳_NON_Mshare_T_112
+      - 🏳_NON_Mshare_T_113
+      - 🏳_NON_Mshare_T_114
+      - 🏳_NON_Mshare_T_115
+      - 🏳_NON_Mshare_T_116
+      - 🏳_NON_Mshare_T_117
+      - 🏳_NON_Mshare_T_118
+      - 🏳_NON_Mshare_T_119
+      - 🏳_NON_Mshare_T_120
+      - 🏳_NON_Mshare_T_121
+      - 🏳_NON_Mshare_T_122
+      - 🏳_NON_Mshare_T_123
+      - 🏳_NON_Mshare_T_124
+      - 🏳_NON_Mshare_T_125
+      - 🏳_NON_Mshare_T_126
+      - 🏳_NON_Mshare_T_127
+      - 🏳_NON_Mshare_T_128
+      - 🏳_NON_Mshare_T_129
+      - 🏳_NON_Mshare_T_130
+      - 🏳_NON_Mshare_T_131
+      - 🏳_NON_Mshare_T_132
+      - 🏳_NON_Mshare_T_133
+      - 🏳_NON_Mshare_T_134
+      - 🏳_NON_Mshare_T_135
+      - 🏳_NON_Mshare_T_136
+      - 🏳_NON_Mshare_T_137
+      - 🏳_NON_Mshare_T_138
+      - 🏳_NON_Mshare_T_139
+      - 🏳_NON_Mshare_T_140
+      - 🏳_NON_Mshare_T_141
+      - 🏳_NON_Mshare_T_142
+      - 🏳_NON_Mshare_T_143
+      - 🏳_NON_Mshare_T_144
+      - 🏳_NON_Mshare_T_145
+      - 🏳_NON_Mshare_T_146
+      - 🏳_NON_Mshare_T_147
+      - 🏳_NON_Mshare_T_148
+      - 🏳_NON_Mshare_T_149
+      - 🏳_NON_Mshare_T_150
+      - 🏳_NON_Mshare_T_151
+      - 🏳_NON_Mshare_T_152
+      - 🏳_NON_Mshare_T_153
+      - 🏳_NON_Mshare_T_154
+      - 🏳_NON_Mshare_T_155
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -883,6 +1233,56 @@ proxy-groups:
       - 🏳_NON_Mshare_T_103
       - 🏳_NON_Mshare_T_104
       - 🏳_NON_Mshare_T_105
+      - 🏳_NON_Mshare_T_106
+      - 🏳_NON_Mshare_T_107
+      - 🏳_NON_Mshare_T_108
+      - 🏳_NON_Mshare_T_109
+      - 🏳_NON_Mshare_T_110
+      - 🏳_NON_Mshare_T_111
+      - 🏳_NON_Mshare_T_112
+      - 🏳_NON_Mshare_T_113
+      - 🏳_NON_Mshare_T_114
+      - 🏳_NON_Mshare_T_115
+      - 🏳_NON_Mshare_T_116
+      - 🏳_NON_Mshare_T_117
+      - 🏳_NON_Mshare_T_118
+      - 🏳_NON_Mshare_T_119
+      - 🏳_NON_Mshare_T_120
+      - 🏳_NON_Mshare_T_121
+      - 🏳_NON_Mshare_T_122
+      - 🏳_NON_Mshare_T_123
+      - 🏳_NON_Mshare_T_124
+      - 🏳_NON_Mshare_T_125
+      - 🏳_NON_Mshare_T_126
+      - 🏳_NON_Mshare_T_127
+      - 🏳_NON_Mshare_T_128
+      - 🏳_NON_Mshare_T_129
+      - 🏳_NON_Mshare_T_130
+      - 🏳_NON_Mshare_T_131
+      - 🏳_NON_Mshare_T_132
+      - 🏳_NON_Mshare_T_133
+      - 🏳_NON_Mshare_T_134
+      - 🏳_NON_Mshare_T_135
+      - 🏳_NON_Mshare_T_136
+      - 🏳_NON_Mshare_T_137
+      - 🏳_NON_Mshare_T_138
+      - 🏳_NON_Mshare_T_139
+      - 🏳_NON_Mshare_T_140
+      - 🏳_NON_Mshare_T_141
+      - 🏳_NON_Mshare_T_142
+      - 🏳_NON_Mshare_T_143
+      - 🏳_NON_Mshare_T_144
+      - 🏳_NON_Mshare_T_145
+      - 🏳_NON_Mshare_T_146
+      - 🏳_NON_Mshare_T_147
+      - 🏳_NON_Mshare_T_148
+      - 🏳_NON_Mshare_T_149
+      - 🏳_NON_Mshare_T_150
+      - 🏳_NON_Mshare_T_151
+      - 🏳_NON_Mshare_T_152
+      - 🏳_NON_Mshare_T_153
+      - 🏳_NON_Mshare_T_154
+      - 🏳_NON_Mshare_T_155
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1003,6 +1403,56 @@ proxy-groups:
       - 🏳_NON_Mshare_T_103
       - 🏳_NON_Mshare_T_104
       - 🏳_NON_Mshare_T_105
+      - 🏳_NON_Mshare_T_106
+      - 🏳_NON_Mshare_T_107
+      - 🏳_NON_Mshare_T_108
+      - 🏳_NON_Mshare_T_109
+      - 🏳_NON_Mshare_T_110
+      - 🏳_NON_Mshare_T_111
+      - 🏳_NON_Mshare_T_112
+      - 🏳_NON_Mshare_T_113
+      - 🏳_NON_Mshare_T_114
+      - 🏳_NON_Mshare_T_115
+      - 🏳_NON_Mshare_T_116
+      - 🏳_NON_Mshare_T_117
+      - 🏳_NON_Mshare_T_118
+      - 🏳_NON_Mshare_T_119
+      - 🏳_NON_Mshare_T_120
+      - 🏳_NON_Mshare_T_121
+      - 🏳_NON_Mshare_T_122
+      - 🏳_NON_Mshare_T_123
+      - 🏳_NON_Mshare_T_124
+      - 🏳_NON_Mshare_T_125
+      - 🏳_NON_Mshare_T_126
+      - 🏳_NON_Mshare_T_127
+      - 🏳_NON_Mshare_T_128
+      - 🏳_NON_Mshare_T_129
+      - 🏳_NON_Mshare_T_130
+      - 🏳_NON_Mshare_T_131
+      - 🏳_NON_Mshare_T_132
+      - 🏳_NON_Mshare_T_133
+      - 🏳_NON_Mshare_T_134
+      - 🏳_NON_Mshare_T_135
+      - 🏳_NON_Mshare_T_136
+      - 🏳_NON_Mshare_T_137
+      - 🏳_NON_Mshare_T_138
+      - 🏳_NON_Mshare_T_139
+      - 🏳_NON_Mshare_T_140
+      - 🏳_NON_Mshare_T_141
+      - 🏳_NON_Mshare_T_142
+      - 🏳_NON_Mshare_T_143
+      - 🏳_NON_Mshare_T_144
+      - 🏳_NON_Mshare_T_145
+      - 🏳_NON_Mshare_T_146
+      - 🏳_NON_Mshare_T_147
+      - 🏳_NON_Mshare_T_148
+      - 🏳_NON_Mshare_T_149
+      - 🏳_NON_Mshare_T_150
+      - 🏳_NON_Mshare_T_151
+      - 🏳_NON_Mshare_T_152
+      - 🏳_NON_Mshare_T_153
+      - 🏳_NON_Mshare_T_154
+      - 🏳_NON_Mshare_T_155
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
