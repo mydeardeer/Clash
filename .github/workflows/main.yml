@@ -1,0 +1,32 @@
+name: Daily Sync Configuration
+
+on:
+  schedule:
+    # 每天北京时间凌晨 1 点触发 (UTC 17:00)
+    - cron: '0 17 * * *'
+  workflow_dispatch: # 允许手动点击按钮触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download and Update File
+        run: |
+          # 获取当前日期 (格式: 20260404)
+          DATE=$(date +%Y%m%d)
+          # 构建目标 URL
+          URL="https://github.com/free-nodes/clashfree/blob/main/clash{DATE}.yml"
+          
+          # 下载文件并重命名为固定名称 config.yaml，方便 Clash 调用
+          curl -L $URL -o config.yaml
+          
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add config.yaml
+          git commit -m "Update config for $(date +%Y-%m-%d)" || exit 0
+          git push
